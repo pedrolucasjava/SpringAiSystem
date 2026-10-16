@@ -19,4 +19,6 @@ public class GenerativeAiController {
     public String getResponse(@RequestParam String prompt){
         return service.getResponse(prompt);
     }
+
+
 }
