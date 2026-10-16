@@ -1,6 +1,7 @@
+
 spring:
   application:
     name: spring-ai-pedrocouto
-
-openai:
-  api-key: ${OPENAI+API_KEY}
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
